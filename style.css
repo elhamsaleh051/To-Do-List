@@ -150,6 +150,10 @@ body {
   margin-left: 10px;
   word-wrap: break-word;
 }
+#task-list li.completed span{
+  text-decoration: line-through ;
+  color: #000;
+}
 .task-buttons {
   display: flex;
   gap: 10px;
